@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  
+  --mint-color: #cdf0ea;
+  --grey-color: #f9f9f9;
+  --darkgrey-color: #a7a9b5;
+  --pink-color: #f7dbf0;
+  --violet-color: #beaee2;
+  --black-color: #2a2a2a;
+  --white-color: #fff;
+  --blue-color: #a2dbfa;
+  --yellow-color: #ffd369;
+  --red-color: #f16262;
+  --navy-color: rgba(36, 76, 112);
+}
+
+/* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--grey-color);
+}
+
+.searchBox {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
+.inside{
+  max-width: 1090px;
+}
+
+
+
+
+.navbar-content {
+  display: flex;
+  flex: 1;
+  max-height: 100%;
+  justify-content: space-between
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.p-navbar_item {
+  color: #a7a9b5
+}
+
+a {
+  padding: 12px 10px;
+  font-size: 15px;
+  line-height: 20px;
+  color: currentColor;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: left;
+}
+
+navbar-logo {
+  width: 100%;
+}
+
+.mypage {
+  float: right;
+}
+
+.banner log {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  color: var(--navy-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+  border-color: var(--ck-color-base-border);
+  height: 400px;
+}
+.join-logo{
+  padding-bottom: 42px;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: -.48px;
+  color: #000;
+}
+.join_box1{
+  position: relative;
+  padding: 10px 0 14px;
+  text-align: center;
+}
+.email-title{
+  position: relative;
+    display: inline-block;
+    padding-right: 6px;
+}
+.email-input{
+  position: relative;
+}
+.input-email{
+  padding-top: 9px;
+  padding: 8px 0;
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: -.15px;
+    line-height: 22px;
+    border-bottom: 1px solid #ebebeb;
+    outline: 0;
+    border: 0;
+    resize: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+}
